@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cars project</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <div class="hedear">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Tel:050505
+                    - Email:test@gmail.com
+                </div>
+                <div class="col">
+                    <!-- Button trigger modal -->
+                    <a href="" class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop">LogIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header -->
+    <!-- start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://i0.wp.com/eleganceparfum.com/wp-content/uploads/2018/08/cat-eau-de-toilette.png?fit=220%2C220&ssl=1"
+                    style="width: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- ml pour faire le margin left pour le tag ul  -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Blog.html">Our Blog</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="Mark.html">Mark</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact_us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Parfum</a>
+                            <a class="dropdown-item" href="#">Make-Up</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Soin</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- start slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <!-- Inside the slider -->
+        <div class="carousel-inner">
+            <div class="overlay">
+            </div>
+            <div class="carousel-item active">
+                <img src="img/slide1.jpeg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Makeup</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide2.jpeg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Soin</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide3.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Women Parfum </h5>
+                    <p>Some representative placeholder <span>content for</span> content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+    <!-- End slider -->
+    <!--Start Feautures -->
+    <div class="features text-center">
+        <h2>My Feutures</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <i class="far fa-light fa-address-card rounded-circle"></i>
+                    <h3>lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, unde.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <i class="fas fa-regular fa-car rounded-circle"></i>
+                    <h3>lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, unde.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <i class="far fa-building rounded-circle"></i>
+                    <h3>lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, unde.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <i class="fas fa-store-alt rounded-circle"></i>
+                    <h3>lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, unde.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Feautures -->
+    <!-- Start Our Team -->
+    <div class="our-team  mt-5 text-center">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="data:image/jpeg;base64,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"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Mohamed Ahmed</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="facebook-link"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="linkedin-link"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#" class="instagram-link"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://media.istockphoto.com/id/528582811/fr/photo/charmant-bel.jpg?s=170667a&w=0&k=20&c=VUSaOhDBrPQmd3PlILQuTV1X_k6NYGFvynVanXGuhks="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Mostafa Hamed</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="facebook-link"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="linkedin-link"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#" class="instagram-link"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cbVemo4WW12FvYgTSB46O66mRwybqJFqN2ivZjCgL2LGG8DseftNV-KL3XKNmCvJ6-I&usqp=CAU"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sara Ahmed </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="facebook-link"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="linkedin-link"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#" class="instagram-link"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://media.istockphoto.com/id/981749060/fr/photo/rien-ne-dit-que-le-succ%C3%A8s-comme-la-confiance-en-soi.jpg?s=170667a&w=0&k=20&c=Jaepc-iFGyQlEowTz0rp-YD8Q0DOZiREJKfuhfjxwGM="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Safa Hamden</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="facebook-link"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="linkedin-link"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#" class="instagram-link"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Team -->
+    <!-- statistique -->
+    <div class="statistic text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h3>Mascara</h3>
+                        <p> 650 </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Parfum</h3>
+                        <p> 250 </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Foundations</h3>
+                        <p> 850 </p>
+                    </div>
+                    <div class="col">
+                        <h3>Lipstick</h3>
+                        <p> 1550 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End statistique -->
+    <!-- Our customers -->
+    <div class="our-customers text-center">
+        <h2>Our Customers</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md-3 col-sm-6">
+                    <img src="img/revolution.jpg" style="width:100%;"> </img>
+                </div>
+                <div class="col-lg col-md-3 col-sm-6">
+                    <img src="img/chanel-beauty.jpg" style="width:100%;"> </img>
+                </div>
+                <div class="col-lg col-md-3 col-sm-6">
+                    <img src="img/dior-logo.png" style="width:100%; height: 75%;"> </img>
+                </div>
+                <div class="col-lg col-md-3 col-sm-6">
+                    <img src="img/yves-saint-laurent-logo.png" style="width:100%;"> </img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our customers -->
+    <!-- Start News -->
+    <div class="recent-news text-center mt-5">
+        <h2>Recent News</h2>
+        <div class="container">
+            <div class="row">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="img/revolution_fondotain.jpg" class="d-block w-100">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button class="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="img/parfum_chanel_recent.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Parfum</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button class="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="img/mascara_recent.jpg" class="d-block w-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Mascara</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button class="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="img/dior_fard_apoupiere.jpg" class="d-block w-100">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button class="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="img/lipstick_dior.jpg" class="d-block w-100">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button class="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="img/Maybiline.jpg" class="d-block w-100">
+                            <div class="card-body">
+                                <h5 class="card-title">concilier </h5>
+                                <p class="card-text">
+                                    This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <button class="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End News -->
+    <!-- start Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2> My site web </h2>
+                    <p style="padding: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis animi,
+                        non ratione eaque accusantium perspiciatis ipsum consectetur explicabo sit laborum?</p>
+                </div>
+                <div class="col-sm-4">
+                    <h2> Important Links </h2>
+                    <ul>
+                        <li><a href="index.html">-Home</a> </li>
+                        <li><a href="Mark.html">-Marks</a> </li>
+                        <li><a href="Contact_us.html">-Contact Us</a> </li>
+                        <li><a href="#">-Our Team</a></li>
+                        <li><a href="blog.html">-Our Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li> <a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li> <a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                        <li> <a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li> <a href="#"><i class="fab fa-youtube fa-2x"></i></a> </li>
+                        <li> <a href="#"><i class="fab fa-twitter fa-2x"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer1 text-center bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <p style="color: #eee;">Copyright @fatma_Trabelsi</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <!--Start Modal Login-->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Login Customer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn"
+                        style="  padding: 6px; border-radius: 5px; background-color:rgb(214 90 148 / 98%); color:white; float: right; width: 4em;">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+</body>
+
+</html>

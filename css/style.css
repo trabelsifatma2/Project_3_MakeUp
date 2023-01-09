@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Cairo&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* *********start header*********** */
+.hedear {
+    /* background-color: rgb(87, 169, 169); */
+    background-color: #d293a6;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.hedear a {
+    float: right;
+    margin-top: 5px;
+}
+
+/* **********End header************** */
+.navbar a {
+    font-size: 20px;
+}
+
+/* **********Start slide************ */
+.carousel-item img {
+    width: 100%;
+    height: 650px;
+}
+
+.carousel-item h5 {
+    font-size: 50px;
+    display: inline-block;
+    /* color: rgb(104, 81, 87);  */
+    color: rgb(245, 103, 127);
+}
+
+span {
+    display: inline-block;
+    color: rgb(60 149 255);
+}
+
+.carousel-indicators li {
+    height: 15px;
+    background-color: rgb(118, 118, 153);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.421);
+    position: absolute;
+    z-index: 1;
+}
+
+/* **********start features************* */
+.features {
+    margin-top: 75px;
+}
+
+.features h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.features i {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    color: white;
+    background-color: rgb(210, 153, 181);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.features h3 {
+    display: inline-block;
+    background-color: rgba(180, 164, 177, 0.549);
+    color: rgb(13, 13, 14);
+}
+
+.features p {
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(48, 47, 47);
+    line-height: 1.8;
+}
+
+/* **********start our team************* */
+.our-team {
+    background-color: #eee;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/premium-vector/abstract-white-rectangles-digital-hi-tech-concept-background_41814-36.jpg');
+}
+
+.our-team h5 {
+    font-size: 50px;
+    display: inline-block;
+    color: rgb(104, 81, 87);
+}
+
+.our-team h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    height: 28vh;
+}
+
+.our-team .instagram-link {
+    color: #d299b5;
+}
+
+.our-team .linkedin-link {
+    color: #2c118d;
+}
+
+/* **********End our team************* */
+
+/* ************Start Statistique******************* */
+.statistic {
+    width: 100%;
+    height: 655px;
+    background-image: url('../img/back_index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+}
+
+.statistic .overlay {
+    padding-top: 130px;
+    background-color: rgba(60, 60, 60, 0.27);
+    width: 100%;
+    height: 100%;
+}
+
+.statistic .overlay h3 {
+    color: white;
+}
+
+.statistic .overlay p {
+    color: white;
+    font-size: 70px;
+}
+
+/* ************End Statistique******************* */
+/* **********start customers************* */
+.our-customers {
+    background-color: #eee;
+    line-height: 200px;
+    margin-top: 250px;
+    padding: 20px;
+    border-bottom: 3px solid rgb(222 66 155);
+    border-top: 3px solid rgb(222 66 155);
+}
+
+.our-customers h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+/* **********End customers************* */
+/* ***********Recent********** */
+
+.recent-news .btn {
+    background-color: #8873737a;
+    border-color: #6868687a;
+}
+
+.recent-news .btn:hover {
+    background-color: rgb(131, 133, 158);
+}
+
+/* **********End Recent************* */
+/* ********Start Footer******* */
+footer {
+    margin-top: 70px;
+    padding-top: 30px;
+    background-image: url('https://img.freepik.com/premium-vector/abstract-white-rectangles-digital-hi-tech-concept-background_41814-36.jpg');
+    background-color: rgb(153 180 216);
+}
+
+footer p {
+    color: rgba(24, 24, 27, 0.956);
+}
+
+footer h2 {
+    color: rgb(47 80 126 / 75%)
+}
+
+footer a {
+    color: rgb(85, 89, 98);
+
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+/* ********End Footer******* */
+
+
+
+/* *****************-----------------Style of Page Blog-------------------***************** */
+
+/* **************jumbotron-image-info****************** */
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .bolog-info {
+    flex: 2;
+}
+
+.jumbotron .bolog-img {
+    flex: 1;
+}
+
+
+
+
+.blog-details p {
+    text-transform: capitalize;
+    line-height: 2;
+    padding: 10px;
+}
+
+/* Marks Page */
+
+.Marks img:hover {
+    transform: scale(1.2);
+    transition: all 0.75s;
+}
